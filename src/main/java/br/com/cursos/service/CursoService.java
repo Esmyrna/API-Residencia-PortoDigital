@@ -26,11 +26,11 @@ public class CursoService {
 		return cursoRepository.save(curso);
 	}
 	
-	public Curso atualizarCurso(Long id, Curso newCurso) {
+	public Curso atualizarCurso(Long id, Curso curso) {
 		var cursoAtualizado = listarPorId(id);
-		cursoAtualizado.setDescricao(newCurso.getDescricao());
-		cursoAtualizado.setNome(newCurso.getNome());
-		cursoAtualizado.setId(newCurso.getId());
+		cursoAtualizado.setDescricao(curso.getDescricao());
+		cursoAtualizado.setNome(curso.getNome());
+		cursoAtualizado.setId(curso.getId());
 	    return cursoRepository.save(cursoAtualizado);
 	    
 	}
