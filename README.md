@@ -124,3 +124,14 @@ Com Maven:
 ```
 
 No Windows:
+
+mvnw.cmd spring-boot:run
+
+A API estará disponível em:
+
+http://localhost:8080
+
+### 4. Collection no Bruno:
+
+[Crud Cursos.zip](https://github.com/user-attachments/files/32835121/Crud.Cursos.zip)
+
